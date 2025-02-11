@@ -140,7 +140,7 @@ fn main() -> Result<(), i32> {
     //print it to the user and then report exit code and do some cleanup
 
     let exec_command = format!(
-        "java -cp $HOME/.running/classes:$HOME/SwiftBot-API-5.1.3.jar {}",
+        "java -cp $HOME/.running/classes:$HOME/SwiftBot-API.jar {}",
         entry
     );
 
